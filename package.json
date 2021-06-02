@@ -4,6 +4,7 @@
   "description": "Coding practice by recreating website pages.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
