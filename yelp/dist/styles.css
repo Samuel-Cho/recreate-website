@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header-top {
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/H8OvnEBJ4Tiu2a1oLfrbcA/o.jpg");
+  background-size: cover;
+}
