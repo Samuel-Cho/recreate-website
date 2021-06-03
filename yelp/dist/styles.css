@@ -29,3 +29,36 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.content {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.top-content {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .top-nav-link-container {
+
+} */
+
+.top-nav-link {
+  font-weight: 600;
+}
+
+.suggestion-list {
+  display: flex;
+}

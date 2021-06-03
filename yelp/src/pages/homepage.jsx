@@ -7,7 +7,7 @@ export default class Homepage extends React.Component{
       <div className='homepage'>
         <div className='row header-top-container'>
           <div className='header-top'>
-            <div className='content'>
+            <div className='content top-content'>
               <div className='top-nav'>
                 <div className='top-nav-link-container'>
                   <a className='top-nav-link' href=''>Write a Review</a>
