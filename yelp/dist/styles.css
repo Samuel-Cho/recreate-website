@@ -6,7 +6,26 @@ body {
   margin: 0;
 }
 
-.header-top {
+.header-top-container {
   background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/H8OvnEBJ4Tiu2a1oLfrbcA/o.jpg");
   background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+
+.header-top {
+  background-color: rgba(66, 41, 26, 0.473);
+  height: 600px;
+  width: 100%;
+  position: absolute;
+}
+
+.yelp-logo {
+  height: 70px;
+}
+
+.header-top a {
+  text-decoration: none;
+  color: white;
 }
