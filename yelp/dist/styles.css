@@ -49,6 +49,11 @@ body {
 }
 
 .top-nav-link,
+.log-in {
+  padding-bottom: 7px;
+}
+
+.top-nav-link,
 .top-nav-log-container {
   font-weight: 700;
   font-size: 0.9rem;
@@ -159,6 +164,10 @@ body {
   font-size: 0.9rem;
 }
 
+.suggestion-text:hover {
+  text-decoration: underline white;
+}
+
 .photo-source {
   color: white;
   font-weight: 800;
@@ -176,4 +185,9 @@ body {
 
 .photographer{
   margin: 0;
+}
+
+.top-nav-link:hover,
+.log-in:hover {
+  box-shadow: 0 2px 0 0 white;
 }
