@@ -71,7 +71,7 @@ body {
 }
 
 .search-row {
-  height: 275px;
+  height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -104,6 +104,16 @@ body {
   font-size: 1.1rem;
 }
 
+.find-label {
+  border-radius: 5px 0 0 5px;
+}
+
+.find-label,
+.near-label {
+  background-color: white;
+  padding: 12.5px 10px;
+}
+
 .search-button {
   height: 47px;
   padding: 0 25px;
@@ -117,6 +127,23 @@ body {
   font-size: 1.1rem;
 }
 
+.suggestion-list-container {
+  width: 650px;
+  margin: 0 auto;
+}
+
 .suggestion-list {
   display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.suggestion-link {
+  display: flex;
+  align-items: center;
+}
+
+.suggestion-text {
+  padding-left: 5px;
 }

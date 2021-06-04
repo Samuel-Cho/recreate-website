@@ -26,7 +26,9 @@ export default class Homepage extends React.Component{
                 <div className='search-container'>
                   <div className='input-container'>
                     <form className='search-form'>
+                      <label className='find-label' for='find'>Find</label>
                       <input type='text' name='find' id='find' placeholder='plumbers, delivery, takeout...'></input>
+                      <label className='near-label' for='near'>Near</label>
                       <input type='text' name='near' id='near' placeholder='La Habra Heights, CA 90631'></input>
                       <button type='button' className='search-button'>
                         <span><i class="fas fa-search"></i></span>
