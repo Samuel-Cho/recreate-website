@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header-top-container {
@@ -19,10 +20,6 @@ body {
   height: 600px;
   width: 100%;
   position: absolute;
-}
-
-.yelp-logo {
-  height: 70px;
 }
 
 .header-top a {
@@ -51,12 +48,73 @@ body {
   width: 100%;
 }
 
-/* .top-nav-link-container {
+.top-nav-link,
+.top-nav-log-container {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
 
-} */
+.top-nav-link-container {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
 
-.top-nav-link {
-  font-weight: 600;
+.log-in {
+  margin-right: 25px;
+}
+
+.sign-up {
+  padding: 7px 25px;
+  border: solid white 2px;
+  border-radius: 5px;
+}
+
+.search-row {
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.yelp-logo {
+  height: 73px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+#find,
+#near {
+  padding: 13px 10px;
+  width: 400px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.search-button {
+  height: 47px;
+  padding: 0 25px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #D32322;
+}
+
+.fa-search {
+  color: white;
+  font-size: 1.1rem;
 }
 
 .suggestion-list {
