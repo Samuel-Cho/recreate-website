@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-top-container {
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/H8OvnEBJ4Tiu2a1oLfrbcA/o.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+
+.header-top {
+  background-color: rgba(66, 41, 26, 0.473);
+  height: 600px;
+  width: 100%;
+  position: absolute;
+}
+
+.header-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.top-content {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-nav-link,
+.log-in {
+  padding-bottom: 7px;
+}
+
+.top-nav-link,
+.top-nav-log-container {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.top-nav-link-container {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.log-in {
+  margin-right: 25px;
+}
+
+.sign-up {
+  padding: 7px 25px;
+  border: solid white 2px;
+  border-radius: 5px;
+}
+
+.search-row {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.yelp-logo {
+  height: 73px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+#find,
+#near {
+  padding: 13px 10px;
+  width: 380px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+#find {
+  border-right: solid 0.9px;
+  border-image: linear-gradient(to bottom, rgb(255, 255, 255) 25%,rgba(102,102,102,1) 25%,rgba(102,102,102,1) 75%,rgba(255, 255, 255, 0) 75%);
+  border-image-slice: 1;
+}
+
+.find-label {
+  border-radius: 5px 0 0 5px;
+}
+
+.find-label,
+.near-label {
+  background-color: white;
+  padding: 11.5px 10px;
+  font-weight: 800;
+  color: #666666;
+  font-size: 1.1rem;
+}
+
+.search-button {
+  height: 47px;
+  padding: 0 25px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #D32322;
+}
+
+.fa-search {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.suggestion-list-container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.suggestion-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.suggestion-link {
+  display: flex;
+  align-items: center;
+}
+
+.suggestion-text {
+  padding-left: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.suggestion-text:hover {
+  text-decoration: underline white;
+}
+
+.photo-source {
+  color: white;
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.photo-by {
+  font-weight: 400;
+}
+
+.photo-location {
+  margin-bottom: 0;
+}
+
+.photographer{
+  margin: 0;
+}
+
+.top-nav-link:hover,
+.log-in:hover {
+  box-shadow: 0 2px 0 0 white;
+}
