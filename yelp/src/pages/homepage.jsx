@@ -101,6 +101,36 @@ export default class Homepage extends React.Component{
             </div>
           </div>
         </div>
+        <div className='row yelp-sf-row'>
+          <div className='content yelp-sf-content'>
+            <h3 className='yelp-sf-header'>Yelp San Francisco</h3>
+            <ul className='yelp-sf-city-list'>
+              <li className='yelp-sf-city'>
+                <a className='city'>Irvine</a>
+              </li>
+              <li className='yelp-sf-city'>
+                <a className='city'>New York</a>
+              </li>
+              <li className='yelp-sf-city'>
+                <a className='city'>San Jose</a>
+              </li>
+              <li className='yelp-sf-city'>
+                <a className='city'>Los Angeles</a>
+              </li>
+              <li className='yelp-sf-city'>
+                <a className='city'>Chicago</a>
+              </li>
+              <li className='yelp-sf-city'>
+                <a className='city'>Palo Alto</a>
+              </li>
+              <li className='yelp-sf-city'>
+                <a className='city'>
+                  <i class="fas fa-search more-cities"></i>More Cities
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
