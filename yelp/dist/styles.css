@@ -191,3 +191,23 @@ body {
 .log-in:hover {
   box-shadow: 0 2px 0 0 white;
 }
+
+.find-row {
+  background-color: #F5F5F5;
+}
+
+.find-best-business {
+  margin-top: 0;
+}
+
+.business-card {
+  background-color: white;
+}
+
+.business-card-container {
+  display: flex;
+}
+
+.business-card-image {
+  width: 200px;
+}

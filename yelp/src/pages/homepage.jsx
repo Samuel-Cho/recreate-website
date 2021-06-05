@@ -78,6 +78,29 @@ export default class Homepage extends React.Component{
             </div>
           </div>
         </div>
+        <div className='row find-row'>
+          <div className='content'>
+            <h3 className='find-best-business'>Find the Best Businesses in Town</h3>
+            <div className='business-card-container'>
+              <div className='business-card'>
+                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/dryclean@2x.yji-ff5b642fbbdf949c26c3ca19b6dfb4bb.jpg'></img>
+                <p className='business-card-text'>Dry Cleaning</p>
+              </div>
+              <div className='business-card'>
+                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/mobilephonerepair@2x.yji-8d16cabd40520ed32733ee590e6bc5f4.jpg'></img>
+                <p className='business-card-text'>Phone Repair</p>
+              </div>
+              <div className='business-card'>
+                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/hotels@2x.yji-c49912c5d2a5bd098a87a5ebcf038fb2.jpg'></img>
+                <p className='business-card-text'>Hotels</p>
+              </div>
+              <div className='business-card'>
+                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/massage@2x.yji-3e7134d3e9e5653059f073a41af7bbb7.jpg'></img>
+                <p className='business-card-text'>Massage</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
