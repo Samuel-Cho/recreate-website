@@ -72,8 +72,8 @@ export default class Homepage extends React.Component{
                 </div>
               </div>
               <div className='photo-source'>
-                <p className='photo-location'>Melbourne Food Porn Festival</p>
-                <p className='photographer'><span className='photo-by'>Photo by</span> Sharon H.</p>
+                <a className='photo-location' href=' '>Melbourne Food Porn Festival</a>
+                <p className='photographer'><span className='photo-by'>Photo by</span> <a className='photographer-name' href=' '>Sharon H.</a></p>
               </div>
             </div>
           </div>
