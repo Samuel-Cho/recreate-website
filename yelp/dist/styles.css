@@ -146,7 +146,8 @@ body {
   margin: 0 auto;
 }
 
-.suggestion-list {
+.suggestion-list,
+.yelp-sf-city-list {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -206,7 +207,8 @@ body {
   padding-bottom: 40px;
 }
 
-.find-best-business {
+.find-best-business,
+.yelp-sf-header {
   margin-top: 0;
   text-align: center;
   font-size: 1.3rem;
@@ -244,6 +246,40 @@ body {
   color: #3366BB;
 }
 
+.yelp-sf-row {
+  padding-top: 40px;
+  padding-bottom: 40px; /* may remove */
+}
+
+.yelp-sf-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #797979;
+  padding-bottom: 10px;
+}
+
+.yelp-sf-header {
+  margin-bottom: 0;
+}
+
+.yelp-sf-city-list {
+  width: 600px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.yelp-sf-city:hover {
+  box-shadow: 0 2px 0 0 #D32322;
+}
+
+.city,
 .more-cities {
-  color: black;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #797979;
+}
+
+.more-cities {
+  margin-right: 5px;
 }
