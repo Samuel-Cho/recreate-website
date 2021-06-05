@@ -28,7 +28,7 @@ body {
 }
 
 .content {
-  max-width: 65%;
+  max-width: 70%;
   margin: 0 auto;
 }
 
@@ -104,7 +104,7 @@ body {
 #find,
 #near {
   padding: 13px 10px;
-  width: 380px;
+  width: 400px;
   border: none;
   font-size: 1.1rem;
 }
@@ -161,7 +161,7 @@ body {
 .suggestion-text {
   padding-left: 5px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .suggestion-text:hover {
@@ -171,7 +171,7 @@ body {
 .photo-source {
   color: white;
   font-weight: 800;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -192,22 +192,54 @@ body {
   box-shadow: 0 2px 0 0 white;
 }
 
+.sign-up:hover {
+  background-color: white;
+  color: #797979
+}
+
 .find-row {
   background-color: #F5F5F5;
 }
 
+.find-row-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .find-best-business {
   margin-top: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #D32322;
+  padding-bottom: 5px;
 }
 
 .business-card {
   background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  color: #333333;
 }
 
 .business-card-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .business-card-image {
-  width: 200px;
+  width: 220px;
+  border-radius: 5px 5px 0 0;
+}
+
+.business-card-text {
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.business-card:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 10px 5px rgba(211, 211, 211, 0.705));
+  color: #3366BB;
 }
