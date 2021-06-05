@@ -79,7 +79,7 @@ export default class Homepage extends React.Component{
           </div>
         </div>
         <div className='row find-row'>
-          <div className='content'>
+          <div className='content find-row-content'>
             <h3 className='find-best-business'>Find the Best Businesses in Town</h3>
             <div className='business-card-container'>
               <div className='business-card'>
