@@ -203,17 +203,20 @@ body {
   color: #797979
 }
 
-.find-row {
+.find-row,
+.browse-business-row {
   background-color: #F5F5F5;
 }
 
-.find-row-content {
+.find-row-content,
+.browse-business-content {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .find-best-business,
-.yelp-sf-header {
+.yelp-sf-header,
+.browse-business-header {
   margin-top: 0;
   text-align: center;
   font-size: 1.3rem;
@@ -245,7 +248,8 @@ body {
   font-weight: 800;
 }
 
-.business-card:hover {
+.business-card:hover,
+.business-category-card:hover {
   cursor: pointer;
   filter: drop-shadow(0 10px 5px rgba(211, 211, 211, 0.705));
   color: #3366BB;
@@ -294,3 +298,49 @@ body {
 }
 
  /* split */
+
+ /* .browse-business-row {
+   height: 100px;
+ } */
+
+ .business-category-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
+   height: 310px;
+ }
+
+.business-category-card {
+  background-color: white;
+  width: 22%;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgb(230, 230, 230);
+  /* color: #333333; */
+}
+
+.business-category-card:hover {
+  border-color: #3366BB;
+}
+
+.business-category-link {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.business-category-link:hover {
+  color: #3366BB;
+}
+
+.business-category-img {
+  width: 80px;
+}
+
+.business-category {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
