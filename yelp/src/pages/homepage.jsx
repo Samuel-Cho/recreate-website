@@ -131,6 +131,61 @@ export default class Homepage extends React.Component{
             </ul>
           </div>
         </div>
+        <div className='row browse-business-row'>
+          <div className='content browse-business-content'>
+            <h3 className='browse-business-header'>Browse Businesses by Category</h3>
+            <div className='business-category-container'>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants@2x.yji-7cef764a214416ca9991e53ceb108b5c.png'></img>
+                  <p className='business-category'>Restaurant</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping@2x.yji-559f23226d9f9f651812ddc5d6e3d1b2.png'></img>
+                  <p className='business-category'>Shopping</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife@2x.yji-925cd32ac4c934d465c664f140c5b629.png'></img>
+                  <p className='business-category'>Nightlife</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life@2x.yji-2df9fcd6a68eb739e68a026778dd7a3f.png'></img>
+                  <p className='business-category'>Active Life</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty@2x.yji-3cfb4e602ac139443228f090ec71b84f.png'></img>
+                  <p className='business-category'>Beauty & Spas</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive@2x.yji-c73bd70791375ec60256243055745f63.png'></img>
+                  <p className='business-category'>Automotive</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services@2x.yji-20723ad0e5ee302de563935be68c6638.png'></img>
+                  <p className='business-category'>Home Services</p>
+                </a>
+              </div>
+              <div className='business-category-card'>
+                <a className='business-category-link'>
+                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories@2x.yji-e7be9a50bf8cf4a2eea9f7d7e2b5f194.png'></img>
+                  <p className='business-category'>More Categories</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
