@@ -345,3 +345,19 @@ body {
   font-size: 0.8rem;
   font-weight: 800;
 }
+
+.mobile-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-app-link {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.apple-apps-img,
+.android-apps-img {
+  width: 300px;
+}
