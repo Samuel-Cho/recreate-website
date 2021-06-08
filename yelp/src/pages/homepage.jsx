@@ -21,7 +21,7 @@ export default class Homepage extends React.Component{
               </div>
               <div className='search-row'>
                 <div className='logo-container'>
-                  <img className='yelp-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/1280px-Yelp_Logo.svg.png'></img>
+                  <img alt='yelp logo' className='yelp-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/1280px-Yelp_Logo.svg.png'></img>
                 </div>
                 <div className='search-container'>
                   <div className='input-container'>
@@ -83,19 +83,19 @@ export default class Homepage extends React.Component{
             <h3 className='find-best-business'>Find the Best Businesses in Town</h3>
             <div className='business-card-container'>
               <div className='business-card'>
-                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/dryclean@2x.yji-ff5b642fbbdf949c26c3ca19b6dfb4bb.jpg'></img>
+                <img alt='dry cleaning' className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/dryclean@2x.yji-ff5b642fbbdf949c26c3ca19b6dfb4bb.jpg'></img>
                 <p className='business-card-text'>Dry Cleaning</p>
               </div>
               <div className='business-card'>
-                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/mobilephonerepair@2x.yji-8d16cabd40520ed32733ee590e6bc5f4.jpg'></img>
+                <img alt='phone repair' className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/mobilephonerepair@2x.yji-8d16cabd40520ed32733ee590e6bc5f4.jpg'></img>
                 <p className='business-card-text'>Phone Repair</p>
               </div>
               <div className='business-card'>
-                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/hotels@2x.yji-c49912c5d2a5bd098a87a5ebcf038fb2.jpg'></img>
+                <img alt='hotel' className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/hotels@2x.yji-c49912c5d2a5bd098a87a5ebcf038fb2.jpg'></img>
                 <p className='business-card-text'>Hotels</p>
               </div>
               <div className='business-card'>
-                <img className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/massage@2x.yji-3e7134d3e9e5653059f073a41af7bbb7.jpg'></img>
+                <img alt='massage' className='business-card-image' src='https://s3-media0.fl.yelpcdn.com/assets/public/massage@2x.yji-3e7134d3e9e5653059f073a41af7bbb7.jpg'></img>
                 <p className='business-card-text'>Massage</p>
               </div>
             </div>
@@ -131,56 +131,77 @@ export default class Homepage extends React.Component{
             </ul>
           </div>
         </div>
+
+
         <div className='row browse-business-row'>
           <div className='content browse-business-content'>
             <h3 className='browse-business-header'>Browse Businesses by Category</h3>
             <div className='business-category-container'>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants@2x.yji-7cef764a214416ca9991e53ceb108b5c.png'></img>
+                  <img alt='restaurant' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants@2x.yji-7cef764a214416ca9991e53ceb108b5c.png'></img>
                   <p className='business-category'>Restaurant</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping@2x.yji-559f23226d9f9f651812ddc5d6e3d1b2.png'></img>
+                  <img alt='shopping' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping@2x.yji-559f23226d9f9f651812ddc5d6e3d1b2.png'></img>
                   <p className='business-category'>Shopping</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife@2x.yji-925cd32ac4c934d465c664f140c5b629.png'></img>
+                  <img alt='nightlife' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife@2x.yji-925cd32ac4c934d465c664f140c5b629.png'></img>
                   <p className='business-category'>Nightlife</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life@2x.yji-2df9fcd6a68eb739e68a026778dd7a3f.png'></img>
+                  <img alt='active life' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life@2x.yji-2df9fcd6a68eb739e68a026778dd7a3f.png'></img>
                   <p className='business-category'>Active Life</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty@2x.yji-3cfb4e602ac139443228f090ec71b84f.png'></img>
+                  <img alt='beauty and spas' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty@2x.yji-3cfb4e602ac139443228f090ec71b84f.png'></img>
                   <p className='business-category'>Beauty & Spas</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive@2x.yji-c73bd70791375ec60256243055745f63.png'></img>
+                  <img alt='automotive' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive@2x.yji-c73bd70791375ec60256243055745f63.png'></img>
                   <p className='business-category'>Automotive</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services@2x.yji-20723ad0e5ee302de563935be68c6638.png'></img>
+                  <img alt='home services' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services@2x.yji-20723ad0e5ee302de563935be68c6638.png'></img>
                   <p className='business-category'>Home Services</p>
                 </a>
               </div>
               <div className='business-category-card'>
                 <a className='business-category-link' href=' '>
-                  <img className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories@2x.yji-e7be9a50bf8cf4a2eea9f7d7e2b5f194.png'></img>
+                  <img alt='more categories' className='business-category-img' src='https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories@2x.yji-e7be9a50bf8cf4a2eea9f7d7e2b5f194.png'></img>
                   <p className='business-category'>More Categories</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='row yelp-mobile-row'>
+          <div className='content yelp-mobile-content'>
+            <h3 className='yelp-mobile-header'>Yelp Mobile Apps</h3>
+            <div className='mobile-container'>
+              <div className='apple-apps-container'>
+                <a className='mobile-app-link' href=' '>
+                  <p className='apple-apps'>iPhone, iPad and <i class="fab fa-apple"></i> Watch</p>
+                  <img className='apple-apps-img' alt="iphone and ipad" src='https://s3-media0.fl.yelpcdn.com/assets/public/pitch_ios@2x.yji-56ec6655a7ac925b080fa9833895e2a2.png'></img>
+                </a>
+              </div>
+              <div className='android-apps-container'>
+                <a className='mobile-app-link' href=' '>
+                  <p className='android-apps'>Android</p>
+                  <img className='android-apps-img' alt="android" src='https://s3-media0.fl.yelpcdn.com/assets/public/pitch_android@2x.yji-c0e32a3afc513227116910caefb3a994.png'></img>
                 </a>
               </div>
             </div>

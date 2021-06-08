@@ -304,9 +304,6 @@ body {
 
  /* split */
 
- /* .browse-business-row {
-   height: 100px;
- } */
 
  .business-category-container {
    display: flex;
@@ -321,7 +318,6 @@ body {
   width: 22%;
   border-radius: 5px 5px 5px 5px;
   border: 1px solid rgb(230, 230, 230);
-  /* color: #333333; */
 }
 
 .business-category-card:hover {
