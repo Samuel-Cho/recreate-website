@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 export default class Homepage extends React.Component{
+
   render(){
     return (
       <div className='homepage'>
@@ -137,11 +138,11 @@ export default class Homepage extends React.Component{
             <p className='hot-and-new-header'>Hot & New Businesses</p>
             <div className='hot-and-new-business-container'>
               <div className='hot-and-new-card'>
-                <a href=' '>
+                <a href='#businessPage'>
                   <img alt='business image' className='hot-and-new-img' src='https://s3-media0.fl.yelpcdn.com/bphoto/ZaEu9zKutUsTKXdKRNtmYg/o.jpg'></img>
                 </a>
                 <div className='business-details'>
-                  <a href=' ' className='business-name'>Mutts</a>
+                  <a href='#businessPage' className='business-name'>Mutts</a>
                   <div className='rating-container'>
                     <img className='star-rating' alt='star rating' src='https://809y21tj4ca35taeseea1idm-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/yelp-stars_400.png'></img>
                     <p className='review-count'> 40 reviews</p>
