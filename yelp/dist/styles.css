@@ -651,6 +651,19 @@ body {
   margin-bottom: 0px;
 }
 
+.edit {
+  font-size: 0.7rem;
+  font-weight: 800;
+  margin-left: 5px;
+  padding: 3px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.edit:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.288);
+}
+
 .bp-hours {
   margin-bottom: 40px;
 }
