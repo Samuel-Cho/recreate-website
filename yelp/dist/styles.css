@@ -267,7 +267,6 @@ body {
 
 .yelp-sf-row {
   padding-top: 40px;
-  /* padding-bottom: 40px; may remove */
 }
 
 .yelp-sf-content {
@@ -275,7 +274,6 @@ body {
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #797979;
-  /* padding-bottom: 10px; */
 }
 
 .yelp-sf-header {
@@ -600,4 +598,85 @@ body {
 
 .fa-angle-down {
   padding-left: 10px;
+}
+
+.photo-row {
+  width: 100%;
+  height: 430px;
+  background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/ZaEu9zKutUsTKXdKRNtmYg/l.jpg),
+    url(https://s3-media0.fl.yelpcdn.com/bphoto/dkZyL97LUUNKND1L3lhYMg/l.jpg),
+    url(https://s3-media0.fl.yelpcdn.com/bphoto/mlKYAxm6IQCkYUE_Egc1gw/l.jpg);
+  background-repeat: no-repeat;
+  background-size: 330px 430px, 550px 430px, 570px 430px;
+  background-position: 0 0, 330px 0, 880px 0;
+  position: relative;
+}
+
+.layer {
+  background: linear-gradient(rgba(29, 18, 11, 0), rgba(29, 18, 11, 0.815));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.bp-content {
+  max-width: 78%;
+  margin: 0 auto;
+}
+
+.hero-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+  font-weight: 600;
+}
+
+.bp-business-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.bp-star-rating {
+  width: 180px;
+  margin-right: 10px;
+}
+
+.bp-info {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.bp-hours {
+  margin-bottom: 40px;
+}
+
+.open {
+  color: #05a881;
+}
+
+.bp-hours-update {
+  color: #0EB3C9;
+  padding-left: 5px;
+}
+
+.hero-content-right {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+}
+
+.photo-button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px 5px 5px 5px;
+  padding: 13px 30px;
+}
+
+.photo-button:hover {
+  background-color: rgba(255, 255, 255, 0.288);
 }

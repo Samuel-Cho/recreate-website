@@ -37,8 +37,23 @@ export default class BusinessPage extends React.Component {
             </ul>
           </div>
         </div>
-        <div className='business-page-content'>
-
+        <div className='photo-row'>
+          <div className='layer'>
+            <div className='bp-content hero-content'>
+              <div className='hero-content-left'>
+                <h1 className='bp-business-name'>Mutts</h1>
+                <div className='rating-container'>
+                  <img className='bp-star-rating' alt='star rating' src='https://809y21tj4ca35taeseea1idm-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/yelp-stars_400.png'></img>
+                  <p className='bp-review-count'> 40 reviews</p>
+                </div>
+                <p className='bp-info'>Unclaimed &#9432; &#183; Breakfast &amp; Brunch, Pizza Sandwiches</p>
+                <p className='bp-hours'><span className='open'>Open</span> 8:00 AM - 12:00 AM (Next day) <span className='bp-hours-update'>&#9432; Hours updated 2 months ago</span></p>
+              </div>
+              <div className='hero-content-right'>
+                <a href='#businessPage' className='photo-button'>See 16 photos</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
