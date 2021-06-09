@@ -209,8 +209,9 @@ body {
 }
 
 .find-row,
-.browse-business-row {
-  background-color: #F5F5F5;
+.browse-business-row,
+.top-row {
+  background-color: #f5f5f5;
 }
 
 .find-row-content,
@@ -460,4 +461,95 @@ body {
 .android-apps-container:hover {
   cursor: pointer;
   box-shadow: 0 7px 5px rgba(211, 211, 211, 0.705);
+}
+
+
+
+
+/* business page below */
+
+.business-page {
+  width: 100%;
+}
+
+.menu-container {
+  width: 100%;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  width: 100%;
+}
+
+.yelp-logo-menu {
+  width: 75px;
+}
+
+#type,
+#location {
+  padding: 13px 10px;
+  width: 320px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+#type {
+  border-radius: 5px 0 0 5px;
+  border-right: solid 0.9px;
+  border-image: linear-gradient(to bottom, rgb(255, 255, 255) 25%,rgba(102,102,102,1) 25%,rgba(102,102,102,1) 75%,rgba(255, 255, 255, 0) 75%);
+  border-image-slice: 1;
+}
+
+#type::placeholder {
+  color: #bbbbbb;
+}
+
+.bd-search-button {
+  height: 47px;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #D32322;
+}
+
+.bd-search {
+  font-size: 1.7rem;
+}
+
+.business-review-link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.for-businesses,
+.write-review {
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 7px 7px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.for-businesses:hover,
+.write-review:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.button-container {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bp-log-in,
+.bp-sign-up {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid lightgray;
 }
