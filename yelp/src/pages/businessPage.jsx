@@ -29,7 +29,12 @@ export default class BusinessPage extends React.Component {
             </div>
           </div>
           <div className='bottom-row'>
-            <p>test</p>
+            <ul className='drop-down-list'>
+              <li className='drop-down-item'>Restaurants <i class="fas fa-angle-down"></i></li>
+              <li className='drop-down-item'>Home Services <i class="fas fa-angle-down"></i></li>
+              <li className='drop-down-item'>Auto Services <i class="fas fa-angle-down"></i></li>
+              <li className='drop-down-item'>More <i class="fas fa-angle-down"></i></li>
+            </ul>
           </div>
         </div>
         <div className='business-page-content'>
