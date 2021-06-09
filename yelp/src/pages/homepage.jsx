@@ -132,6 +132,27 @@ export default class Homepage extends React.Component{
           </div>
         </div>
 
+        <div className='row hot-and-new-row'>
+          <div className='content hot-and-new-content'>
+            <p className='hot-and-new-header'>Hot & New Businesses</p>
+            <div className='hot-and-new-business-container'>
+              <div className='hot-and-new-card'>
+                <img alt='business image' className='hot-and-new-img' src='https://s3-media0.fl.yelpcdn.com/bphoto/ZaEu9zKutUsTKXdKRNtmYg/o.jpg'></img>
+                <div className='business-details'>
+                  <a href=' ' className='business-name'>Mutts</a>
+                  <div className='rating-container'>
+                    <img className='star-rating' alt='star rating' src='https://809y21tj4ca35taeseea1idm-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/yelp-stars_400.png'></img>
+                    <p className='review-count'> 40 reviews</p>
+                  </div>
+                  <p className='bd'>Breakfast, Pizza, Sandwiches</p>
+                  <p className='bd'>Newport Beach, CA</p>
+                  <p className='bd'><span className='new'><i class="fas fa-fire-alt"></i> Opened 6 weeks ago</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <div className='row browse-business-row'>
           <div className='content browse-business-content'>
