@@ -8,7 +8,7 @@ export default class App extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      route: parseRoute(indow.location.hash)
+      route: parseRoute(window.location.hash)
     }
   }
 
@@ -21,13 +21,13 @@ export default class App extends React.Component{
 
   renderPage() {
     if (this.state.route.path === 'businessPage') {
-      return <businessPage />
+      return <BusinessPage />
     } else {
       return <Homepage />
     }
   }
 
   render() {
-    return {this.renderPage()};
+    return this.renderPage();
   }
 }
