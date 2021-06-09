@@ -136,6 +136,11 @@ body {
   background-color: #D32322;
 }
 
+.search-button:hover {
+  cursor: pointer;
+  background-color: #b31b1b;
+}
+
 .fa-search {
   color: white;
   font-size: 1.1rem;
@@ -146,7 +151,8 @@ body {
   margin: 0 auto;
 }
 
-.suggestion-list {
+.suggestion-list,
+.yelp-sf-city-list {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -183,6 +189,11 @@ body {
   margin-bottom: 0;
 }
 
+.photo-location:hover,
+.photographer-name:hover {
+  text-decoration: underline white;
+}
+
 .photographer{
   margin: 0;
 }
@@ -197,16 +208,23 @@ body {
   color: #797979
 }
 
-.find-row {
+.find-row,
+.browse-business-row {
   background-color: #F5F5F5;
 }
 
-.find-row-content {
+.find-row-content,
+.browse-business-content,
+.yelp-mobile-content,
+.hot-and-new-content {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.find-best-business {
+.find-best-business,
+.yelp-sf-header,
+.browse-business-header,
+.yelp-mobile-header {
   margin-top: 0;
   text-align: center;
   font-size: 1.3rem;
@@ -238,8 +256,208 @@ body {
   font-weight: 800;
 }
 
-.business-card:hover {
+.business-card:hover,
+.business-category-card:hover {
   cursor: pointer;
   filter: drop-shadow(0 10px 5px rgba(211, 211, 211, 0.705));
   color: #3366BB;
+}
+
+.yelp-sf-row {
+  padding-top: 40px;
+  /* padding-bottom: 40px; may remove */
+}
+
+.yelp-sf-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #797979;
+  /* padding-bottom: 10px; */
+}
+
+.yelp-sf-header {
+  margin-bottom: 5px;
+}
+
+.yelp-sf-city-list {
+  width: 600px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.yelp-sf-city {
+  padding-bottom: 10px;
+}
+
+.yelp-sf-city:hover {
+  box-shadow: inset 0 -2px 0 0 #D32322;
+}
+
+.city,
+.more-cities {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #797979;
+}
+
+.more-cities {
+  margin-right: 5px;
+}
+/* split */
+
+
+
+.hot-and-new-header {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #D32322;
+}
+
+.hot-and-new-card {
+  border: 1px solid rgb(230, 230, 230);
+  width: 300px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.hot-and-new-img {
+  height: 170px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 10px;
+}
+
+.business-details {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.bd {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+.business-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3366BB;
+  text-decoration: none;
+}
+
+.business-name:hover {
+  text-decoration: underline;
+}
+
+.star-rating {
+  width: 100px;
+  margin-right: 5px;
+}
+
+.review-count {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  color: #797979;
+}
+
+.new {
+  color: rgb(247, 84, 25);
+}
+
+
+/* split */
+
+
+ .business-category-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
+   height: 310px;
+ }
+
+.business-category-card {
+  background-color: white;
+  width: 22%;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.business-category-card:hover,
+.apple-apps-container:hover,
+.android-apps-container:hover {
+  border-color: #3366BB;
+}
+
+.business-category-link {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.business-category-link:hover,
+.mobile-app-link:hover {
+  color: #3366BB;
+}
+
+.business-category-img {
+  width: 80px;
+}
+
+.business-category,
+.apple-apps,
+.android-apps {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.mobile-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apple-apps-container,
+.android-apps-container {
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgb(230, 230, 230);
+  width: 480px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mobile-app-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.apple-apps,
+.android-apps {
+  margin-bottom: 0;
+}
+
+.apple-apps-img,
+.android-apps-img {
+  width: 280px;
+}
+
+.apple-apps-container:hover,
+.android-apps-container:hover {
+  cursor: pointer;
+  box-shadow: 0 7px 5px rgba(211, 211, 211, 0.705);
 }
