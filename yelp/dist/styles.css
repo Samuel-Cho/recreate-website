@@ -344,6 +344,7 @@ body {
   margin-top: 5px;
   margin-bottom: 0;
   font-size: 0.9rem;
+  color: #333333;
 }
 
 .business-name {
@@ -366,6 +367,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 0.8rem;
+  color: #797979;
+}
+
+.new {
+  color: rgb(247, 84, 25);
 }
 
 

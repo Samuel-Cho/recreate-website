@@ -137,7 +137,9 @@ export default class Homepage extends React.Component{
             <p className='hot-and-new-header'>Hot & New Businesses</p>
             <div className='hot-and-new-business-container'>
               <div className='hot-and-new-card'>
-                <img alt='business image' className='hot-and-new-img' src='https://s3-media0.fl.yelpcdn.com/bphoto/ZaEu9zKutUsTKXdKRNtmYg/o.jpg'></img>
+                <a href=' '>
+                  <img alt='business image' className='hot-and-new-img' src='https://s3-media0.fl.yelpcdn.com/bphoto/ZaEu9zKutUsTKXdKRNtmYg/o.jpg'></img>
+                </a>
                 <div className='business-details'>
                   <a href=' ' className='business-name'>Mutts</a>
                   <div className='rating-container'>
