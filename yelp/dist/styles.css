@@ -210,7 +210,8 @@ body {
 
 .find-row,
 .browse-business-row,
-.top-row {
+.top-row,
+.bottom-row {
   background-color: #f5f5f5;
 }
 
@@ -468,13 +469,6 @@ body {
 
 /* business page below */
 
-.business-page {
-  width: 100%;
-}
-
-.menu-container {
-  width: 100%;
-}
 
 .top-row {
   display: flex;
@@ -488,10 +482,14 @@ body {
   width: 75px;
 }
 
+.bp-search-form {
+  filter: drop-shadow(0 5px 5px rgba(211, 211, 211, 0.705));
+}
+
 #type,
 #location {
   padding: 13px 10px;
-  width: 320px;
+  width: 330px;
   border: none;
   font-size: 1.1rem;
 }
@@ -507,7 +505,7 @@ body {
   color: #bbbbbb;
 }
 
-.bd-search-button {
+.bp-search-button {
   height: 47px;
   padding: 0 15px;
   border-radius: 0 5px 5px 0;
@@ -515,7 +513,11 @@ body {
   background-color: #D32322;
 }
 
-.bd-search {
+.bp-search-button:hover {
+  cursor: pointer;
+}
+
+.bp-search {
   font-size: 1.7rem;
 }
 
@@ -551,5 +553,24 @@ body {
   text-decoration: none;
   padding: 8px 15px;
   border-radius: 5px 5px 5px 5px;
+  font-weight: 600;
+}
+
+.bp-log-in {
+  color: #333333;
+  background-color: white;
   border: 1px solid lightgray;
+}
+
+.bp-log-in:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.bp-sign-up {
+  background-color: #D32322;
+  color: white;
+}
+
+.bottom-row {
+  padding-left: 40px;
 }
