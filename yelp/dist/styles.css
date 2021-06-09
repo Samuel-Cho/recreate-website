@@ -308,6 +308,12 @@ body {
 
 
 
+.hot-and-new-header {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #D32322;
+}
 
 .hot-and-new-card {
   border: 1px solid rgb(230, 230, 230);
