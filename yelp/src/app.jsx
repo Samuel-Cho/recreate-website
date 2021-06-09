@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Homepage from './pages/homepage';
 import parseRoute from './lib/index';
+import BusinessPage from './pages/businessPage';
 
 export default class App extends React.Component{
   constructor(props) {
